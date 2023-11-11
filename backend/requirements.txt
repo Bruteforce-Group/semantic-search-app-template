@@ -1,10 +1,13 @@
 aiohttp>=3.6.2
 aiofiles
 pydantic>=1.4.0
-requests>=2.24.0
-ujson>=2.0.2
+requests>=2.31.0
+ujson>=5.4.0
 fastapi>=0.95.0
 Jinja2>=3.0
 nomic
 openai
 langchain
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.21.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=9.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
